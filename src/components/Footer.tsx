@@ -1,6 +1,6 @@
 import React from 'react';
-import { Star, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-
+import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logo from "../../public/rawaed-logo.png";
 const Footer = () => {
   return (
     <footer className="bg-slate-900 border-t border-slate-800">
@@ -9,9 +9,13 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3 space-x-reverse">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
-                <Star className="w-6 h-6 text-white" />
-              </div>
+            <div className="relative w-10 h-10 bg-white rounded-full shadow-md flex items-center justify-center">
+              <img
+                src={logo}
+                alt="Rawaed Solutions Logo"
+                className="w-25 h-25 object-contain"
+              />
+            </div>
               <div>
                 <h3 className="text-xl font-bold text-white">روائد الحلول</h3>
                 <p className="text-sm text-blue-200">القيادة في الحلول</p>
