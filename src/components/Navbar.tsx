@@ -34,17 +34,25 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 space-x-reverse">
-            <div className="relative w-10 h-10 bg-white rounded-full shadow-md flex items-center justify-center">
+            <div
+              className={`relative w-16 h-16 bg-white rounded-full shadow-lg overflow-hidden border border-blue-200 transition-transform duration-300 ${
+                isScrolled ? "scale-90" : "scale-100"
+              }`}
+            >
               <img
                 src={logo}
                 alt="Rawaed Solutions Logo"
-                className="w-20 h-20 object-contain"
+                className="w-16 h-16 "
               />
             </div>
 
             <div>
-              <h1 className="text-xl font-bold text-white">روائد الحلول</h1>
-              <p className="text-xs text-blue-200">القيادة في الحلول</p>
+              <h1 className="text-xl font-bold text-white whitespace-nowrap">
+                روائد الحلول التجارية
+              </h1>
+              <p className="text-xs text-blue-200 whitespace-nowrap">
+                القيادة في الحلول
+              </p>
             </div>
           </Link>
 

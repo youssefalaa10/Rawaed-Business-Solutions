@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">خدماتنا</h4>
             <ul className="space-y-2">
-              <li><span className="text-gray-400">تأسيس الشركات</span></li>
+              <li><span className="text-gray-400">بناء شراكة مع رواد الأعمال</span></li>
               <li><span className="text-gray-400">التسويق الاستراتيجي</span></li>
               <li><span className="text-gray-400">الاستشارات المالية</span></li>
               <li><span className="text-gray-400">دراسات الجدوى</span></li>

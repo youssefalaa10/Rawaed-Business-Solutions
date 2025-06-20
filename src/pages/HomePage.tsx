@@ -141,8 +141,8 @@ const HomePage = () => {
   const services = [
     {
       icon: <Building2 className="w-8 h-8" />,
-      title: 'تأسيس الشركات',
-      description: 'نساعدك في تأسيس شركتك وإنهاء جميع الإجراءات الحكومية بسهولة ويسر',
+      title: 'بناء شراكة مع رواد الأعمال',
+      description: 'بناء شراكات  تمويلية وتشغيلية واستراتيجية ناجحة مع رواد الأعمال الطموحين',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
       color: 'from-blue-500 to-cyan-500'
     },

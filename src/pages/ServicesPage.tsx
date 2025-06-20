@@ -91,7 +91,7 @@ const ServicesPage = () => {
       id: 5,
       icon: <Globe className="w-12 h-12" />,
       title: 'الهبوط الناعم للشركات الدولية',
-      description: 'مساعدة المستثمرين الدوليين على تأسيس وجودهم في المملكة',
+      description: 'مساعدة المستثمرين الدوليين علىبناء شراكة مع رواد الأعمال في المملكة',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
       features: [
         'استراتيجيات دخول السوق المخصصة',
