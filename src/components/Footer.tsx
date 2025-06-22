@@ -1,5 +1,13 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import React from "react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Instagram,
+} from "lucide-react";
 import logo from "../../public/rawaed-logo.png";
 const Footer = () => {
   return (
@@ -9,21 +17,22 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3 space-x-reverse">
-            <div className="relative w-10 h-10 bg-white rounded-full shadow-md flex items-center justify-center">
-              <img
-                src={logo}
-                alt="Rawaed Solutions Logo"
-                className="w-25 h-25 object-contain"
-              />
-            </div>
+              <div className="relative w-10 h-10 bg-white rounded-full shadow-md flex items-center justify-center">
+                <img
+                  src={logo}
+                  alt="Rawaed Solutions Logo"
+                  className="w-25 h-25 object-contain"
+                />
+              </div>
               <div>
                 <h3 className="text-xl font-bold text-white">روائد الحلول</h3>
                 <p className="text-sm text-blue-200">القيادة في الحلول</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              نحن شركة متخصصة في تمكين الشركات في كل مرحلة من مراحل نموها وتطويرها، 
-              مع تركيز استراتيجي على تطوير الأعمال والحلول التقنية والمالية.
+              نحن شركة متخصصة في تمكين الشركات في كل مرحلة من مراحل نموها
+              وتطويرها، مع تركيز استراتيجي على تطوير الأعمال والحلول التقنية
+              والمالية.
             </p>
           </div>
 
@@ -31,10 +40,38 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">روابط سريعة</h4>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">الرئيسية</a></li>
-              <li><a href="/about" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">نبذة عنا</a></li>
-              <li><a href="/services" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">خدماتنا</a></li>
-              <li><a href="/contact" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">اتصل بنا</a></li>
+              <li>
+                <a
+                  href="/"
+                  className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+                >
+                  الرئيسية
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/about"
+                  className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+                >
+                  نبذة عنا
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services"
+                  className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+                >
+                  خدماتنا
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+                >
+                  اتصل بنا
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -42,10 +79,20 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">خدماتنا</h4>
             <ul className="space-y-2">
-              <li><span className="text-gray-400">بناء شراكة مع رواد الأعمال</span></li>
-              <li><span className="text-gray-400">التسويق الاستراتيجي</span></li>
-              <li><span className="text-gray-400">الاستشارات المالية</span></li>
-              <li><span className="text-gray-400">دراسات الجدوى</span></li>
+              <li>
+                <span className="text-gray-400">
+                  بناء شراكة مع رواد الأعمال
+                </span>
+              </li>
+              <li>
+                <span className="text-gray-400">التسويق الاستراتيجي</span>
+              </li>
+              <li>
+                <span className="text-gray-400">الاستشارات المالية</span>
+              </li>
+              <li>
+                <span className="text-gray-400">دراسات الجدوى</span>
+              </li>
             </ul>
           </div>
 
@@ -55,15 +102,17 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 space-x-reverse">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">info@rawaed-hulol.com</span>
+                <span className="text-gray-400">info@rwdalhulu.com</span>
               </div>
               <div className="flex items-center space-x-3 space-x-reverse">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">+966 50 123 4567</span>
+                <span className="text-gray-400">+966 55 563 0570</span>
               </div>
               <div className="flex items-center space-x-3 space-x-reverse">
                 <MapPin className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">الرياض، المملكة العربية السعودية</span>
+                <span className="text-gray-400">
+                  الرياض، المملكة العربية السعودية
+                </span>
               </div>
             </div>
           </div>
@@ -73,20 +122,32 @@ const Footer = () => {
           <p className="text-gray-400 text-sm">
             © 2025 روائد الحلول. جميع الحقوق محفوظة.
           </p>
-          <div className="flex space-x-4 space-x-reverse mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
+          {/* <div className="flex space-x-4 space-x-reverse mt-4 md:mt-0">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+            >
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+            >
               <Twitter className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+            >
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+            >
               <Instagram className="w-5 h-5" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

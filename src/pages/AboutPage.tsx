@@ -93,15 +93,15 @@ const AboutPage = () => {
               <div className="bg-gradient-to-br from-blue-900/20 to-slate-700/50 p-8 rounded-2xl backdrop-blur-sm">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-gradient mb-2">500+</div>
+                    <div className="text-3xl font-bold text-gradient mb-2">300+</div>
                     <div className="text-gray-400">عميل راضٍ</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-gradient mb-2">100+</div>
+                    <div className="text-3xl font-bold text-gradient mb-2">70+</div>
                     <div className="text-gray-400">مشروع مكتمل</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-gradient mb-2">10+</div>
+                    <div className="text-3xl font-bold text-gradient mb-2">5+</div>
                     <div className="text-gray-400">سنوات خبرة</div>
                   </div>
                   <div className="text-center">

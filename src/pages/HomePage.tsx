@@ -163,9 +163,9 @@ const HomePage = () => {
   ];
 
   const stats = [
-    { number: '500+', label: 'عميل راضٍ', icon: <Users className="w-6 h-6" /> },
-    { number: '100+', label: 'مشروع مكتمل', icon: <CheckCircle className="w-6 h-6" /> },
-    { number: '10+', label: 'سنوات خبرة', icon: <Award className="w-6 h-6" /> },
+    { number: '300+', label: 'عميل راضٍ', icon: <Users className="w-6 h-6" /> },
+    { number: '70+', label: 'مشروع مكتمل', icon: <CheckCircle className="w-6 h-6" /> },
+    { number: '5+', label: 'سنوات خبرة', icon: <Award className="w-6 h-6" /> },
     { number: '24/7', label: 'دعم متواصل', icon: <Zap className="w-6 h-6" /> }
   ];
 
